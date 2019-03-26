@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryPattern.Data\RepositoryPattern.Data.csproj" />
+    <ProjectReference Include="..\RepositoryPattern.Repositories\RepositoryPattern.Repositories.csproj" />
+    <ProjectReference Include="..\RepositoryPattern.Repository1\RepositoryPattern.Repository1.csproj" />
+  </ItemGroup>
+
+</Project>
